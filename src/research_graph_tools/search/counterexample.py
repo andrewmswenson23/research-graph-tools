@@ -13,6 +13,7 @@ def find_counterexample(candidates: Iterable[T], predicate: Callable[[T], bool],
     """
     if limit is not None and limit < 0:
         raise ValueError("limit must be nonnegative or None")
+    # Check one candidate at a time and stop as soon as one matches.
     for index, candidate in enumerate(candidates):
         if limit is not None and index >= limit:
             break

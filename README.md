@@ -5,7 +5,7 @@ A small Python toolkit for calculations and visualizations in Kempton graph rese
 ## Install
 
 ```bash
-python -m pip install -e .
+uv sync
 ```
 
 ## Quick start
@@ -21,4 +21,4 @@ print(accessibility_index(graph))
 draw_graph(graph, color_values=accessibility_index(graph)).show()
 ```
 
-See [`examples/quickstart.py`](examples/quickstart.py) for a minimal example including all metrics and a bounded search.
+See the [notebook walkthrough](notebooks/walkthrough.ipynb) for a gradual introduction to the tools.
