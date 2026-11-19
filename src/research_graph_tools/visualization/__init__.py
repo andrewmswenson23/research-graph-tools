@@ -1,4 +1,4 @@
-"""Graph layout and plotting helpers."""
+"""Counterexample Atlas style interactive graph views."""
 
 from research_graph_tools.visualization.draw import draw_graph
 from research_graph_tools.visualization.layout import graph_positions
